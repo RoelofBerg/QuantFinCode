@@ -1,0 +1,1 @@
+ERROR - [OHExampleWorkbook.xlsx]Sheet1!$H$10 - TSLogLinearDF - Error retrieving object with id 'TestObject#0000' - unable to convert reference to type 'class ESTSObject' found instead 'class ESTestObject'

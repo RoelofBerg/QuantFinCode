@@ -1,0 +1,33 @@
+﻿Build started 27/01/2015 2:34:42 PM.
+     1>Project "C:\Users\eriks\Research\Book\Work\QuantFinCode 1.05\Chapter 6\Heston\Heston.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\HestonTest.cpp
+         HestonTest.cpp
+     1>c:\users\eriks\research\book\work\quantfincode 1.05\chapter 6\hestontest.cpp(143): warning C4101: 'normalRNG' : unreferenced local variable
+     1>c:\users\eriks\research\book\work\quantfincode 1.05\chapter 6\hestontest.cpp(140): warning C4101: 'urng' : unreferenced local variable
+     1>c:\lib\blitz-0.9\blitz\array\storage.h(106): warning C4805: '&' : unsafe mix of type 'bool' and type 'int' in operation
+                 c:\lib\blitz-0.9\blitz\array\storage.h(103) : while compiling class template member function 'bool blitz::GeneralArrayStorage<N_rank>::allRanksStoredAscending(void) const'
+                 with
+                 [
+                     N_rank=1
+                 ]
+                 c:\lib\blitz-0.9\blitz\array\methods.cc(91) : see reference to function template instantiation 'bool blitz::GeneralArrayStorage<N_rank>::allRanksStoredAscending(void) const' being compiled
+                 with
+                 [
+                     N_rank=1
+                 ]
+                 c:\lib\blitz-0.9\blitz\array\storage.h(201) : see reference to class template instantiation 'blitz::GeneralArrayStorage<N_rank>' being compiled
+                 with
+                 [
+                     N_rank=1
+                 ]
+     1>c:\lib\blitz-0.9\blitz\array\storage.h(106): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\eriks\Research\Book\Work\QuantFinCode 1.05\Chapter 6\Debug\Heston.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\eriks\Research\Book\Work\QuantFinCode 1.05\Chapter 6\Debug\Heston.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\eriks\Research\Book\Work\QuantFinCode 1.05\Chapter 6\Debug\Heston.lib" /MACHINE:X86 Debug\HestonTest.obj
+         "C:\Users\eriks\Research\Book\Work\QuantFinCode 1.05\Chapter 6\Debug\Quantfin.lib"
+         Heston.vcxproj -> C:\Users\eriks\Research\Book\Work\QuantFinCode 1.05\Chapter 6\Debug\Heston.exe
+     1>Done Building Project "C:\Users\eriks\Research\Book\Work\QuantFinCode 1.05\Chapter 6\Heston\Heston.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.01

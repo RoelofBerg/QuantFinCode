@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <IncludePath>C:\Users\eriks\Research\Book\New Lib\Include;C:\Lib\blitz-0.9;C:\build_ql_1_0_1\ObjectHandler;C:\Lib\boost_1_52_0;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\build_ql_1_0_1\ObjectHandler\xlsdk;C:\build_ql_1_0_1\log4cxx\msvc\lib;C:\build_ql_1_0_1\ObjectHandler\lib;C:\Lib\boost_1_45_0\stage\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup />
+  <ItemGroup />
+</Project>

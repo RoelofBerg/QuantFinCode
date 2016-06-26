@@ -1,0 +1,13 @@
+﻿Build started 7/02/2014 4:33:15 PM.
+     1>Project "C:\Users\Erik\Documents\Research\Book\Website\Work\QuantFinCode 1.02\Third party distributions\xlw-5.0.1f0\xlw\examples\Start Here - Example\vc11\ESRunInterfaceGenerator.vcxproj" on node 2 (Clean target(s)).
+     1>CoreClean:
+         "C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\..\..\VC\bin\NMAKE" /f ESRunInterfaceGenerator.nmake ENVIRON=Release LIBRARY=ESXLWProject vc=vc11 CLEAN 
+         
+         Microsoft (R) Program Maintenance Utility Version 11.00.60315.1
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+     1>Done Building Project "C:\Users\Erik\Documents\Research\Book\Website\Work\QuantFinCode 1.02\Third party distributions\xlw-5.0.1f0\xlw\examples\Start Here - Example\vc11\ESRunInterfaceGenerator.vcxproj" (Clean target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.11

@@ -1,0 +1,16 @@
+﻿Build started 7/02/2014 4:28:09 PM.
+     1>Project "C:\Users\Erik\Documents\Research\Book\Website\Work\QuantFinCode 1.02\Third party distributions\xlw-5.0.1f0\xlw\examples\Start Here - Example\vc11\RunInterfaceGenerator.vcxproj" on node 2 (Build target(s)).
+     1>Build:
+         "C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\..\..\VC\bin\NMAKE" /f RunInterfaceGenerator.nmake ENVIRON=Release LIBRARY=FirstExample vc=vc11 ALL 
+         
+         Microsoft (R) Program Maintenance Utility Version 11.00.60315.1
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+     1>NMAKE : fatal error U1073: don't know how to make '..\..\..\build\vc11\Release\InterfaceGenerator.exe'
+         Stop.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.MakeFile.Targets(38,5): error MSB3073: The command ""C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\..\..\VC\bin\NMAKE" /f RunInterfaceGenerator.nmake ENVIRON=Release LIBRARY=FirstExample vc=vc11 ALL " exited with code 2.
+     1>Done Building Project "C:\Users\Erik\Documents\Research\Book\Website\Work\QuantFinCode 1.02\Third party distributions\xlw-5.0.1f0\xlw\examples\Start Here - Example\vc11\RunInterfaceGenerator.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.07

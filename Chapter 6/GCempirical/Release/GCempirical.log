@@ -1,0 +1,46 @@
+﻿Build started 17/03/2015 4:42:50 PM.
+     1>Project "C:\Users\eriks\Research\Book\Work\QuantFinCode 1.05\Chapter 6\GCempirical\GCempirical.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\GCempirical.cpp
+         GCempirical.cpp
+     1>C:\Users\eriks\Research\Book\Work\QuantFinCode 1.05\Include\CSV2Array.hpp(70): warning C4018: '>' : signed/unsigned mismatch
+                 ..\GCempirical.cpp(59) : see reference to function template instantiation 'blitz::Array<P_numtype,N_rank> quantfin::CSV2Array<std::string>(std::istream &,boost::function<Signature>)' being compiled
+                 with
+                 [
+                     P_numtype=std::string,
+                     N_rank=2,
+                     Signature=std::string (const char *)
+                 ]
+     1>C:\Users\eriks\Research\Book\Work\QuantFinCode 1.05\Include\CSV2Array.hpp(74): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Users\eriks\Research\Book\Work\QuantFinCode 1.05\Include\CSV2Array.hpp(75): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Users\eriks\Research\Book\Work\QuantFinCode 1.05\Include\CSV2Array.hpp(76): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Lib\blitz-0.9\blitz/array/storage.h(106): warning C4805: '&' : unsafe mix of type 'bool' and type 'int' in operation
+                 C:\Lib\blitz-0.9\blitz/array/storage.h(103) : while compiling class template member function 'bool blitz::GeneralArrayStorage<N_rank>::allRanksStoredAscending(void) const'
+                 with
+                 [
+                     N_rank=1
+                 ]
+                 C:\Lib\blitz-0.9\blitz/array/methods.cc(91) : see reference to function template instantiation 'bool blitz::GeneralArrayStorage<N_rank>::allRanksStoredAscending(void) const' being compiled
+                 with
+                 [
+                     N_rank=1
+                 ]
+                 C:\Lib\blitz-0.9\blitz/array/storage.h(201) : see reference to class template instantiation 'blitz::GeneralArrayStorage<N_rank>' being compiled
+                 with
+                 [
+                     N_rank=1
+                 ]
+     1>C:\Lib\blitz-0.9\blitz/array/storage.h(106): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\eriks\Research\Book\Work\QuantFinCode 1.05\Chapter 6\Release\GCempirical.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\eriks\Research\Book\Work\QuantFinCode 1.05\Chapter 6\Release\GCempirical.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\eriks\Research\Book\Work\QuantFinCode 1.05\Chapter 6\Release\GCempirical.lib" /MACHINE:X86 /SAFESEH Release\GCempirical.obj
+         "C:\Users\eriks\Research\Book\Work\QuantFinCode 1.05\Chapter 6\Release\Quantfin.lib"
+         Generating code
+     1>c:\users\eriks\research\book\work\quantfincode 1.05\include\powell.hpp(150): warning C4715: 'quantfin::opt::GeneralPowell<quantfin::TermStructure::fit_func,double,quantfin::opt::GeneralBrentLinesearch<quantfin::TermStructure::fit_func,double> >::solve' : not all control paths return a value
+     1>c:\users\eriks\research\book\work\quantfincode 1.05\include\powell.hpp(150): warning C4715: 'quantfin::opt::GeneralPowell<quantfin::GramCharlier::GCcalibration_class,double,quantfin::opt::GeneralBrentLinesearch<quantfin::GramCharlier::GCcalibration_class,double> >::solve' : not all control paths return a value
+         Finished generating code
+         GCempirical.vcxproj -> C:\Users\eriks\Research\Book\Work\QuantFinCode 1.05\Chapter 6\Release\GCempirical.exe
+     1>Done Building Project "C:\Users\eriks\Research\Book\Work\QuantFinCode 1.05\Chapter 6\GCempirical\GCempirical.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.99

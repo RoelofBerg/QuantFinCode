@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{419F1460-D201-4E9B-830C-C30FED9D39DA}</ProjectGuid>
+    <RootNamespace>Quantfin</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <TargetExt>.lib</TargetExt>
+    <IncludePath>..\..\Third party\Cubature;C:\Lib\boost_1_52_0;C:\Lib\blitz-0.9;..\..\Include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <TargetExt>.lib</TargetExt>
+    <IncludePath>..\..\Third party\Cubature;C:\Lib\boost_1_52_0;C:\Lib\blitz-0.9;..\..\Include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Third party\Cubature\cubature.c" />
+    <ClCompile Include="..\..\Third party\cumnorm\cumnorm1.cpp" />
+    <ClCompile Include="..\..\Third party\cumnorm\cumnorm2.cpp" />
+    <ClCompile Include="..\..\Third party\cumnorm\cumnorm3.cpp" />
+    <ClCompile Include="..\..\Third party\cumnorm\utilities.cpp" />
+    <ClCompile Include="..\Binomial.cpp" />
+    <ClCompile Include="..\BlackScholesAsset.cpp" />
+    <ClCompile Include="..\CSV2Array.cpp" />
+    <ClCompile Include="..\CSVconstructors.cpp" />
+    <ClCompile Include="..\DeterministicCashflow.cpp" />
+    <ClCompile Include="..\DeterministicVol.cpp" />
+    <ClCompile Include="..\DeterministicVolMediator.cpp" />
+    <ClCompile Include="..\ExponentialVol.cpp" />
+    <ClCompile Include="..\FiniteDifference.cpp" />
+    <ClCompile Include="..\GaussianEconomy.cpp" />
+    <ClCompile Include="..\GaussianHJM.cpp" />
+    <ClCompile Include="..\GaussianQuadrature.cpp" />
+    <ClCompile Include="..\GeometricBrownianMotion.cpp" />
+    <ClCompile Include="..\GramCharlier.cpp" />
+    <ClCompile Include="..\GramCharlierAsset.cpp" />
+    <ClCompile Include="..\HestonAsset.cpp" />
+    <ClCompile Include="..\InterfaceCLAPACK.cpp" />
+    <ClCompile Include="..\InterfaceCubature.cpp" />
+    <ClCompile Include="..\LongstaffSchwartz.cpp" />
+    <ClCompile Include="..\MBinary.cpp" />
+    <ClCompile Include="..\MBinaryGaussianHJM.cpp" />
+    <ClCompile Include="..\MCEngine.cpp" />
+    <ClCompile Include="..\MCGatherer.cpp" />
+    <ClCompile Include="..\MExotics.cpp" />
+    <ClCompile Include="..\MultivariateNormal.cpp" />
+    <ClCompile Include="..\Payoff.cpp" />
+    <ClCompile Include="..\PiecewiseVol.cpp" />
+    <ClCompile Include="..\Polynomial.cpp" />
+    <ClCompile Include="..\QFArrayUtil.cpp" />
+    <ClCompile Include="..\QFQuasiRandom.cpp" />
+    <ClCompile Include="..\QFUtil.cpp" />
+    <ClCompile Include="..\Regression.cpp" />
+    <ClCompile Include="..\rootfinder.cpp" />
+    <ClCompile Include="..\StringForm.cpp" />
+    <ClCompile Include="..\TermStructure.cpp" />
+    <ClCompile Include="..\TSBinomial.cpp" />
+    <ClCompile Include="..\TSInstruments.cpp" />
+    <ClCompile Include="..\TSPayoff.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
